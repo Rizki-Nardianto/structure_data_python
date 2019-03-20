@@ -1,0 +1,33 @@
++) class:
+
+ => Class adalah salah satu cara bagaimana kita membuat sebuah kode yang mempunyai behaviour 
+	tertentu dan lebih mudah dalam mengorganisasi berbagai fungsi dan state-nya.
+
+ => Calss Variabel adalah sebuah variabel yang dibagi oleh semua contoh kelas.
+
+ => Data member adalah  variabel kelas atau variabel contoh yang nyimpan data yang terkait dengan kelas dan objeknya
+
+ => Function overloading adalah penugasan lebih dari satu perilaku ke fungsi tertentu.
+
+ => instance variable adalah variabel yang didefinisakn di dalam sebuah metode dan hanya dimiliki oleh instance kelas saat ini.
+
+ => intance adalah objeck individu dari kelas tertetu
+
+ => instantiation adalah pembuatan dari sebuah kelas
+
+ => Method adalah jenis fungsi khusus 
+
+ => Object adlah contoh unik dari struktur data
+
+ => operator overloading adalah penugasan lebih dari satu fungsi ke operator tertentu.
+
+
+=>bentuk class:
+ 	class variabel:
+		def __init__(): #>constraktor
+			pass
+ 		def display(): #>Display
+			return ()
+
+
+

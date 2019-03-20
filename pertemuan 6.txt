@@ -1,0 +1,31 @@
+# link list
+	=> nambah
+	=> delete
+	=> insert 	
+	=> bentuk data yang dinamis 
+# Node 
+	DATA DI DALAM MEMORY BERADA DI ALAMAT YANG BERBEDA BEDA, JIKA DIBUTUHKAN 
+	harus ada Head/(awal data) nya
+# dalam node
+1. data
+2. pointer next
+	1. contructor
+	2. getData=>menunjukan data
+	3. getNext=>menunjukan data setelahnya
+	4. setData=>mengisi data
+	5. setNaxt=>mengisi 
+
+penambahan data di awal
+
+TRAVERSAL LINKED LIST
+
+PR = 1. secrh pada node berapa
+     2. menambah data di tengah 
+     3. menambanh data di belakang
+     4. insetr next
+     5. insert previouse
+     6. 
+
+Menghapus node pada linkedlist
+
+tahapan 1=> 

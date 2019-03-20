@@ -1,0 +1,37 @@
+QUEUE :
+
+ => Queue merupakan koleksi item yang cara penambahan itemnya terjadi pada sebuah 
+	ujung yang biasa disebut sebagai “ekor” atau (rear) dan untuk penghapusannya,
+		 terjadi pada ujung yang satunya.
+
+ => Konsep dalam Queue adalah FIFO
+	Konsep ini yaitu data yang pertama kali masuk merupakan data yang pertama kali di pop/dikuluarkan/dihapus dalam urutan.
+ 
+ =>Operasi dalam Queue :
+
+	1. queue()
+ 		membuat suatu antrian baru yang kosong. Tidak memerlukan parameter dan mengembalikan suatu antrian kosong.
+	2. dequeue()
+		 menghapus  item depan dari antrian. Tidak memerlukan parameter dan mengembalikan itemnya. Antrian termodifikasi.
+	3. isEmpty()
+ 		menguji untuk melihat apakah antrian dalam keadaan kosong. Tidak memerlukan parameter dan mengembalian nilai boolean.
+	4. size()
+ 		mengembalikan jumlah item yang ada di dalam antrian. Tidak memerlukan parameter dan mengembalikan suatu integer.
+	5. enqueue(item) 
+		menambahkan suatu item baru ke ujung saru antrian. Perlu item dan tidak mengembalikan sesuatu.
+
+ => program Queue :
+	class Queue : 
+   	 	def __init__(self):
+        		self.items=[] 
+   		def isEmpty(self):
+        		return self.items==[] 
+    		def enqueue(self,item):
+        		self.items.insert(0,item) 
+    		def dequeue(self):
+        		return self.items.pop() 
+    		def size(self):
+        		return len(self.items)
+    		def getList(self):
+        		return self.items
+
